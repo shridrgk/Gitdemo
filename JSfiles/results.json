@@ -1,0 +1,387 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionality",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Calculator add functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I Will navigate to \"calculator\" page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Add two number \"3\" and \"5\"",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The output displayed should be \"8\"",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2043000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionality",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Calculator add functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I Will navigate to \"calculator\" page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Add two number \"5\" and \"5\"",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The output displayed should be \"10\"",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2039000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;validating-angular-page",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Validating Angular Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I Will navigate to \"AngularJS\" page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I clicked on header page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "You will naviagte to angular page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Enter \"hello\" in search box",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3222000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Angulartesting",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-calculator-app;validating-angular-page",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Validating Angular Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I Will navigate to \"AngularJS\" page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I clicked on header page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "You will naviagte to angular page",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Enter \"shri\" in search box",
+            "match": {
+              "location": "..\\stepdefinitions\\step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3195000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Angulartesting",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-am-going-to-validate-calculator-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "I am going to validate calculator app",
+    "tags": [],
+    "uri": "..\\features\\demo.feature"
+  }
+]
