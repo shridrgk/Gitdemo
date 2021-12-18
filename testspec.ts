@@ -26,11 +26,9 @@ describe("testing program", async () => {
     await add(3, 5);
     await add(5, 4);
     await add(5, 5);
-<<<<<<< HEAD
+
     await add(5, 10);
     await add(5, 25);
-=======
->>>>>>> aae30a577f709fb4b83cd2ae70fc95f35499af96
 
     await calc.getResult.count().then(function (res1) {
       console.log(res1);
