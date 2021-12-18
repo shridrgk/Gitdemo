@@ -11,6 +11,7 @@ Feature: I am going to validate calculator app
             | 3      | 5      | 7   |
             | 5      | 5      | 10  |
             | 15     | 5      | 20  |
+            | 18     | 5      | 23  |
     @Angulartesting
     Scenario Outline: Validating Angular Page
 
