@@ -10,7 +10,7 @@ Feature: I am going to validate calculator app
             | value1 | value2 | Sum |
             | 3      | 5      | 7   |
             | 5      | 5      | 10  |
-
+            | 15     | 5      | 20  |
     @Angulartesting
     Scenario Outline: Validating Angular Page
 
