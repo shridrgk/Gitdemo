@@ -23,3 +23,4 @@ Feature: I am going to validate calculator app
             | key   |
             | hello |
             | shri  |
+            | kavya |
